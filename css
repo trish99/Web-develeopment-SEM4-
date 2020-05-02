@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+}
+.hero-bg{
+    background: whitesmoke url('../images/bg1.jpg');
+    color: black;
+    background-position: 30% 80%;
+    text-align: centre;
+    padding: 4em;
+}
+
+header{
+    
+    padding: 0em 0em 1em 0em;
+    text-align: center;
+}
+.hero-bg a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.hero-bg p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+.hero-bg h1{
+    font-size: 2rem;
+    text-align: center;
+}
+section{
+    margin: 0 1em;
+}
+
+.card {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    display:block;
+    font-size:1.2rem;
+}
+
+input[type=button]
+{   color: whitesmoke;
+    border-radius: 2em;
+    padding: 1em;
+    background-color: rgb(16, 95, 42);
+    widows: 70%;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: rgb(10, 163, 61);
+}
